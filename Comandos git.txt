@@ -1,0 +1,250 @@
+
+Admin@Christian MINGW64 ~
+$ $ git init
+bash: $: command not found
+
+Admin@Christian MINGW64 ~
+$ git -version
+unknown option: -version
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+Admin@Christian MINGW64 ~
+$ git -v
+git version 2.43.0.windows.1
+
+Admin@Christian MINGW64 ~
+$ git config --global user.name "Cristian"
+
+Admin@Christian MINGW64 ~
+$ git config --global user.email "crcaarti@misena.edu.co"
+
+Admin@Christian MINGW64 ~
+$ cd..
+bash: cd..: command not found
+
+Admin@Christian MINGW64 ~
+$ cd ..
+
+Admin@Christian MINGW64 /c/Users
+$ cd ..
+
+Admin@Christian MINGW64 /c
+$ cd Repositorio/
+
+Admin@Christian MINGW64 /c/Repositorio
+$ git init
+Initialized empty Git repository in C:/Repositorio/.git/
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git sta
+stage    stash    status
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git add..
+git: 'add..' is not a git command. See 'git --help'.
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git add .
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.js
+
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git commit -m 'descripcion'
+[master (root-commit) 39700b7] descripcion
+ 1 file changed, 33 insertions(+)
+ create mode 100644 index.js
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git config --global user.email "christian_camilo00@hotmail.com"
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ pwd
+/c/Repositorio
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git add .
+warning: in the working copy of 'frontend/.browserslistrc', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/.editorconfig', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/angular.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/karma.conf.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/tsconfig.app.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/tsconfig.spec.json', LF will be replaced by CRLF the next time Git touches it
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git add .
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   backend/controllers/empleado.controller.js
+        new file:   backend/database.js
+        new file:   backend/index.js
+        new file:   backend/models/empleado.js
+        new file:   backend/routes/empleado.routes.js
+        new file:   frontend/.browserslistrc
+        new file:   frontend/.editorconfig
+        new file:   frontend/.gitignore
+        new file:   frontend/README.md
+        new file:   frontend/angular.json
+        new file:   frontend/karma.conf.js
+        new file:   frontend/package-lock.json
+        new file:   frontend/package.json
+        new file:   frontend/tsconfig.app.json
+        new file:   frontend/tsconfig.json
+        new file:   frontend/tsconfig.spec.json
+
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git co
+commit   config
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git commit -m "Commit proyecto empleado"
+[master c86b9eb] Commit proyecto empleado
+ 16 files changed, 12646 insertions(+)
+ create mode 100644 backend/controllers/empleado.controller.js
+ create mode 100644 backend/database.js
+ create mode 100644 backend/index.js
+ create mode 100644 backend/models/empleado.js
+ create mode 100644 backend/routes/empleado.routes.js
+ create mode 100644 frontend/.browserslistrc
+ create mode 100644 frontend/.editorconfig
+ create mode 100644 frontend/.gitignore
+ create mode 100644 frontend/README.md
+ create mode 100644 frontend/angular.json
+ create mode 100644 frontend/karma.conf.js
+ create mode 100644 frontend/package-lock.json
+ create mode 100644 frontend/package.json
+ create mode 100644 frontend/tsconfig.app.json
+ create mode 100644 frontend/tsconfig.json
+ create mode 100644 frontend/tsconfig.spec.json
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git commit -m "first commit"
+On branch master
+nothing to commit, working tree clean
+
+Admin@Christian MINGW64 /c/Repositorio (master)
+$ git branch -M main
+
+Admin@Christian MINGW64 /c/Repositorio (main)
+$ git remote add origin https://github.com/christiancamilo00/Sena.git
+
+Admin@Christian MINGW64 /c/Repositorio (main)
+$ git push -u origin main
+
+
+
+Admin@Christian MINGW64 /c/Repositorio (main)
+$ git push origin main
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (26/26), 119.51 KiB | 4.78 MiB/s, done.
+Total 26 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/christiancamilo00/Sena.git
+ * [new branch]      main -> main
+
+Admin@Christian MINGW64 /c/Repositorio (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+Admin@Christian MINGW64 /c/Repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Admin@Christian MINGW64 /c/Repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Admin@Christian MINGW64 /c/Repositorio (main)
+$
+
+
+
+----------
+
+
+…or create a new repository on the command line
+echo "# adso2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/christiancamilo00/adso2.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/christiancamilo00/adso2.git
+git branch -M main
+git push -u origin main
